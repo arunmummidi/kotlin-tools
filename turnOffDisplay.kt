@@ -3,8 +3,6 @@ import java.awt.GraphicsEnvironment
 const val LAPTOP_DISPLAY = "LVDS-1"
 
 fun main() {
-
-
     val graphicsEnvironment = GraphicsEnvironment.getLocalGraphicsEnvironment()
     val screens = graphicsEnvironment.screenDevices
     println("Available displays: ${screens.size}")
